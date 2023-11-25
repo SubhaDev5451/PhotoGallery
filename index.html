@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <div class="header">
+        <header>
+            <h1>PhotoGallery</h1>
+        </header>
+        <div class="bt">
+          <button id="abt" onclick="abt()">About</button>
+          <button id="fdb" onclick="fdb()">Feedback</button>
+          
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="bn">
+      <h3>PRESS <kbd>ALt</kbd> + <kbd>W</kbd> on focus of image to download that image</h3>
+    </div>
+
+
+
+
+    <div class="full-img" id="fullImgBox">
+      <img src="" id="fullImg" >
+      <span onclick="closeFullImg()">X</span>
+    </div>
+
+    <div class="img-gallery">
+      <!-- add paths of images -->
+      <img src="#" onclick="openFullImg(this.src)" >
+      <img src="#" onclick="openFullImg(this.src)">
+      <img src="#" onclick="openFullImg(this.src)">
+      <img src="#" onclick="openFullImg(this.src)" >
+      <img src="#" onclick="openFullImg(this.src)" >
+      <img src="#" onclick="openFullImg(this.src)" >
+      <img src="#" onclick="openFullImg(this.src)" >
+      <img src="#" onclick="openFullImg(this.src)" >
+      <img src="#" onclick="openFullImg(this.src)" >
+      <img src="#" onclick="openFullImg(this.src)" >
+      <img src="#" onclick="openFullImg(this.src)" >
+      <img src="#" onclick="openFullImg(this.src)" >
+      <img src="#" onclick="openFullImg(this.src)" >
+      <img src="#" onclick="openFullImg(this.src)" >
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
